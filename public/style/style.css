@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+        body {
+            background: #19191a;
+            font-family: 'Rowdies', sans-serif;
+        }
+
+        .header {
+            position: relative;
+            height: 300px;
+            width: 90%;
+            overflow: hidden;
+        }
+        
+
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 70%;
+            padding: 20px;
+            margin: 20px auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            background-color: #5865F2;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: rgb(68, 84, 107);
+            
+            transition: 0.3s;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .navbar .btn {
+            background-color: #546E7A;
+        }
+
+        .navbar .btn-socials-insta{
+            background: linear-gradient(to right, #AB47BC,#FF9800);
+        }
+        .navbar .btn-socials-x{
+            background: linear-gradient(to right, #4FC3F7,#1565C0);
+        }
+        
+        .simp .btn-comment{
+            background: white;
+            color: black
+        }
+        .simp .btn-comment:hover{
+            background: gray;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .navbar .btn:hover{
+            background-color: #78909C;
+            
+            transition: 0.3s;
+        }
+        .items-1 {
+            color: white
+        }
+        .commentaires .comm1{
+            color: white
+        }
+        .commentaires{
+            background: rgb(27, 27, 27);
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .footer .btn-footer {
+            display: flex;
+            padding: 5px 10px;
+            margin-top: 0px; /* Ajoutez une marge entre les boutons */
+            text-decoration: das;
+            background-color: #546E7A;
+            color: white;
+            border-radius: 5px;
+        }
+        .connected {
+            background: linear-gradient(to right, #FB8C00, #26C6DA);
+        }
